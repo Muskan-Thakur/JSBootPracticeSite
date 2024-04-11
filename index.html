@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peace Creation</title>
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body{
+        overflow-x: hidden;
+    }
+    .custom-padding-left {
+        padding-left: 15%;
+    }
+
+    .btn-warning:hover::after,
+    .btn-light:hover::after {
+        content: ' >';
+        /* Adds the '>' sign */
+        display: inline-block;
+        margin-left: 5px;
+        /* Adjust space between text and '>' sign as needed */
+    }
+
+
+    button {
+        font-family: 'Serif';
+        font-size: 2em;
+        font-style: italic;
+        color: #0b0b0b;
+        border: 0cap;
+        background-color: white;
+        /* Add other styles as needed */
+    }
+
+    hr {
+        border: none;
+        height: 5px;
+        background-color: black;
+        margin: 5px 0;
+       
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#" >
+                <img src="img/logo.png" alt="Logo" width="100" height="100" class="d-inline-block">
+                Peace Creation
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin-left: 50%;">
+            <ul class="navbar-nav ">
+                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About Peace
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Page1</a></li>
+                            <li><a class="dropdown-item" href="#">Page 2</a></li>
+                            <li><a class="dropdown-item" href="#">Page 3</a></li>
+                        </ul>
+                    </li>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Page1</a></li>
+                                <li><a class="dropdown-item" href="#">Page 2</a></li>
+                                <li><a class="dropdown-item" href="#">Page 3</a></li>
+                            </ul>
+                        </li>
+
+                        <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+
+                    </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="d-flex justify-content-start align-items-start">
+                    <div class="flex-grow-1">
+                        <div class="carousel-caption" style="height: 80%; margin-right: 40%;">
+                            <h3  style="color: white;">“Spreading Peace”</h3>
+                            <p style="color: white; font-weight: bold;">At Peace Creation, we believe in the power of unity.✌️</p>
+                            <p style="color: white; font-weight: bold;">Join us on this journey towards a more peaceful world. 🌍</p>
+                            <button type="button" class="btn btn-outline-light btn btn-warning">Call Now</button>
+                        </div>
+                    </div>
+                    <img src="img/gif.gif" class="d-block w-100" alt="gif" style="height: 35em;">
+                </div>
+                <div class="card text-center " style="border: none; margin-bottom: 4%;">
+                    <div class="card-body"
+                        style="margin-top: -10%; background-color: white; width: 70%; margin-left: 15%; border-radius: 90px; ">
+                        <h5 class="card-title">“Embracing Serenity, Cultivating Peace” </h5>
+                        <p class="card-text">At Peace Creation, we are committed to fostering an environment of
+                            tranquility and serenity. </p>
+                        <p>We believe that peace begins within and spreads outward, touching lives and transforming
+                            communities. Our platform is dedicated to cultivating peace through
+                            mindful practices, encouraging dialogue, and promoting understanding. Join us as we embrace
+                            serenity and cultivate peace, one step at a time. 🌍✌️</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-6 custom-padding-left">
+                <h3 style="margin-top: 5%;margin-bottom: 5%; margin-left: 25%; color:orange;">OUR SERVICES</h3>
+                <div><button onclick="first()" class=" btn-block mb-2">Internal Medicine</button></div>
+                <hr>
+                <div><button onclick="second()" class=" btn-block mb-2">Nephrology</button></div>
+                <hr>
+                <div><button onclick="third()" class=" btn-block mb-2">Preventative Care</button></div>
+                <hr>
+                <div><button onclick="four()" class=" btn-block mb-2">Hormone Therapy</button></div>
+                <hr>
+                <div><button onclick="five()" class=" btn-block mb-2">IV Nutrition Therapy</button></div>
+                <hr>
+                <div><button onclick="six()" class=" btn-block mb-2">Weight Management</button></div>
+                <hr>
+                <div><button onclick="seven()" class=" btn-block mb-2">Aesthetic Medicine</button></div>
+                <hr>
+            </div>
+
+
+            <div class="col-6" style="background-color: orange;">
+                <div class="card" id="main"
+                    style="width: 18rem; border: none; margin-top: 8%; margin-left: 35%;background-color: orange; ">
+                    <img src="img/g.jpg" class="card-img-top" alt="..."
+                        style="border-radius: 50%; width: 100%; height: 50%;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="margin-left: 10%;">What we treat</h5>
+                        <p class="card-text" id="firstpara">Unabated Stress/Lack of Sleep/Poor Nutrition</p>
+                        <a href="#" class="btn btn-light" style="margin-left: 25%;">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="img/c.jpg" class="card-img-top" alt="..."
+                    style="margin-left: 30%; margin-top: 5%;  border-radius: 50%; height: 20em; width: 20em;">
+            </div>
+            <div class="col">
+                <h1 class="card-title" style="margin-top: 15%; margin-right: 20%; color: orange; margin-left: 10%;">
+                    Plans and pricing for insured and uninsured patients</h1>
+                <p class="card-text" style="margin-left: 10%; margin-top: 2%;">Find a plan that’s right for you</p>
+                <a href="#" class="btn btn-warning"
+                    style="margin-left: 10%; border-radius: 20px; padding: 10px 25px;">Learn More</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="card" style="width: 100%; margin-top: 5%; border: 2px solid black; align-items: center;">
+        <div class="card-body">
+            <h1 class="card-title" style="color: orange;">“Everyone should have someone like Dr. Yazdani on their side.”
+            </h1>
+            <h3 style="color: orange; font-family: 'Times New Roman', Times, serif;  margin-left: 45%;">MARIA C.</h3>
+            <p class="card-text" style=" margin-left: 42%; font-style: italic;  font-size: 30px;">
+                Verified Patient</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6" style="margin-top: 5%; ">
+
+                <h2 class="card-title">
+                    What set us apart.
+                </h2>
+                <h4 class="card-subtitle mb-2 text-body-secondary" style="margin-top: 8%; ">Preventative Care</h4>
+                <p class="card-text">Here at Seaside, we believe with the right knowledge and tools, Preventative
+                    Healthcare
+                    has the potential to change the trajectory of your health in the most optimal way.</p>
+
+                <h4 class="card-subtitle mb-2 text-body-secondary" style="margin-top: 8%;">Availability and
+                    Accessibility
+                </h4>
+                <p class="card-text">Seaside Medical Practice will be available to meet the demands of a busy world,
+                    offering access to phone, email, and online appointment scheduling.</p>
+
+                <h4 class="card-subtitle mb-2 text-body-secondary" style="margin-top: 8%;">Real Results</h4>
+                <p class="card-text">We improve the health of our patients by combining the latest advances in medicine
+                    with
+                    a patient centered compassionate approach to medical care.</p>
+                <a href="#" class="btn btn-warning" style="border-radius: 20px; padding: 10px 25px;">Learn More</a>
+            </div>
+            <div class="col-6">
+                <img src="img/apart.jpg" class="card-img-top" alt="..."
+                    style="border-radius: 50%; height: 30em; margin-top: 10%; margin-left: 8%;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style=" margin-top: 5%;  border: 2px solid black;">
+        <div class="row" style="margin-top: 5%;   margin-left: 10%; margin-right: 5%;">
+            <div class="col-3">
+                <img src="img/l1.jpg" class="card-img-top" alt="..." style="height: 70%; width: 70%;">
+            </div>
+            <div class="col-3">
+                <img src="img/l4.png" class="card-img-top" alt="..." style="height: 70%; width: 70%;">
+            </div>
+            <div class="col-3">
+                <img src="img/l3.jpg" class="card-img-top" alt="..." style="height: 60%; width: 60%;">
+            </div>
+            <div class="col-3">
+                <img src="img/l2.jpg" class="card-img-top" alt="..." style="height: 60%; width: 60%;">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="margin-top: 5%;align-items: center; border: none;">
+            <div class="card-body">
+                <h1 class="card-title" style="color: orange;">You deserve a doctor that is dedicated to your long term
+                    health</h1>
+                <h6 class="card-text" style=" font-style: italic; margin-left: 30%;  margin-top: 2%;">
+                    At Seaside, patients find compassion, healing and overall wellness. </h6>
+                <a href="#" class="btn btn-warning"
+                    style="border-radius: 20px; padding: 10px 30px; margin-left: 40%; margin-top: 2%;">Learn About
+                    Membership</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="margin-left: 15%; margin-top: 5%;">
+            <div class="col-4"> <img src="img/mem.png" class="card-img-top" alt="..." style="height: 60%; width: 60%;">
+                <h4>
+                    Explore Membership
+                </h4>
+            </div>
+            <div class="col-4"> <img src="img/in.png" class="card-img-top" alt="..." style="height: 60%; width: 60%;">
+                <h4>Insurance Questions?</h4>
+            </div>
+            <div class="col-4"> <img src="img/blog.png" class="card-img-top" alt="..." style="height: 60%; width: 60%;">
+                <h4 style="margin-left: 15%;"> Our Blog</h4>
+            </div>
+        </div>
+    </div>
+
+     <!-- Footer start -->
+  <div class="container-fluid bg-warning-subtle py-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h3>Quicklines</h3>
+          <p style="margin-bottom: 0%;">For New Patients</p>
+            <p style="margin-bottom: 0%;"> For Current Patients</p>
+          <p style="margin-bottom: 0%;">Forms</p>
+          <p style="margin-bottom: 0%;">Insurance Information</p>
+          <p style="margin-bottom: 0%;">Fee</p>
+          <p style="margin-bottom: 0%;">Our Mission</p>
+            
+        </div>
+        <div class="col" >
+          <h3>Explore</h3>
+          <ul >
+            <li >Internal Medicine</li>
+            <li>Nephrology</li>
+            <li>Asthetic Services</li>
+            <li>Terms of Weight & Nutrition Therapy</li>
+            <li>Privacy policy</li>
+          </ul>
+        </div>
+        
+        <div class="col">
+          <h3>Location</h3>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <h4 >Follow Us:
+          <i class="fa fa-facebook" style="margin-left: 5%;"></i>
+          <i class="fa fa-youtube" style="margin-left: 5%;"></i>
+          <i class="fa fa-instagram" style="margin-left: 5%;"></i>
+          <i class="fa fa-linkedin" style="margin-left: 5%;"></i>
+          <i class="fa fa-google" style="margin-left: 5%;"></i></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer end -->
+  </div>
+
+  <div class="container-fluid">
+    <div class="row" style="background-color: #0b0b0b;">
+<h6 style="color: gainsboro; margin-left: 5%; margin-top: 1%; margin-bottom: 1%;"> © Copyright - Seaside Medical Practice</h6>
+  </div></div>
+    <script src="second.js"></script>
+</body>
+
+</html>
