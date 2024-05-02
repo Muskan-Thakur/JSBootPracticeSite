@@ -4,6 +4,7 @@
 This project is a website for Peace Creation, a platform dedicated to spreading peace and fostering tranquility. It includes information about the organization's services, mission, and blog.
 
 **Features**
+
 *Navigation*: The website has a navigation bar that allows users to explore different sections like About Peace, Services, Blog, Features, and Contact Us.
 *Carousel*: A carousel at the top showcases the core message of Peace Creation along with a call-to-action button.
 *Services Section*: Provides information about various services offered by Peace Creation, each accompanied by a relevant image.
@@ -13,6 +14,7 @@ This project is a website for Peace Creation, a platform dedicated to spreading 
 *Responsive Design*: The website is designed to be responsive, ensuring a seamless experience across different devices.
 
 **Technologies Used**
+
 HTML: Markup language for structuring the web pages.
 CSS: Used for styling and layout.
 Bootstrap: Framework for responsive design and pre-styled components.
