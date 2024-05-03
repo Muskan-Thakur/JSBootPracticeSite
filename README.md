@@ -29,6 +29,7 @@ Bootstrap: Framework for responsive design and pre-styled components.
 
 JavaScript: Adds interactivity to the website, such as changing images and text dynamically.
 
+
 **ScreenShot**
 
 ![image](https://github.com/Muskan-Thakur/JSBootPracticeSite/assets/106293646/5222d514-6d18-4cc1-898b-5b719ee9ba59)
